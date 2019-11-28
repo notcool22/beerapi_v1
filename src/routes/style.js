@@ -3,6 +3,6 @@ const router= Router();
 
 const {findStyle,findBrewery} = require('../controllers/inventory.controllers')
 
-router.route('/')
+router.route('/:id')
        .get(findStyle)
 module.exports = router;
